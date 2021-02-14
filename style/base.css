@@ -2,7 +2,7 @@
 .continer{
     width: 960px;
     height:768px;
-    margin: 30px 100px 100px 100px;
+    margin-left:15% ;
 }
 .one{
 background-color: yellow;
@@ -85,6 +85,96 @@ line-height: 90px;
             }
 
 
+
+            @media (max-width: 1150px) {
+                .continer{
+                    width: 850px;
+                    height: 700px;
+                  }
+            
+                .one{
+                 float: left;
+                    background-color: yellow;
+                    width: 100px;
+                    height: 550px;
+                    text-align: center;
+                    line-height: 450px;
+                    }
+                    .two{
+                        background-color:rebeccapurple;
+                        width: 750px;
+                        height: 150px;
+                        float: left;
+                        text-align: center;
+                        line-height: 120px;
+                    
+                    }
+                    
+                    .three{
+                     float:left;
+                        background-color:saddlebrown;
+                        width: 375px;
+                        height: 190px;
+                        text-align: center;
+                        line-height: 150px;
+                    
+                    }
+                    
+                    .four{
+                    
+                        text-align: center;
+                        line-height: 150px;
+                        display: inline-block;
+                        background-color:darkgreen;
+                        width: 375px;
+                        height: 190px
+                    }
+                    
+                    .five{
+                        text-align: center;
+                        line-height: 108px;
+                        float:left;
+                        background-color:brown;
+                        width: 750px;
+                        height:100px;
+                        
+                    }
+                    
+                    .six{  
+                        text-align: center;
+                        line-height: 116px;
+                        float:left;
+                        background-color:slateblue;
+                        width: 250px;
+                        height: 110px}
+                        .seven{  
+                            text-align: center;
+                        line-height: 116px;
+                            float:left;
+                            background-color:gold;
+                            width: 250px;
+                            height: 110px}
+                    
+                            .eight{  
+                                text-align: center;
+                                line-height: 116px;
+                                float:left;
+                                background-color:grey;
+                                width: 250px;
+                                height: 110px}
+                    
+                    
+                                .nine{
+                                    text-align: center;
+                                    line-height: 95px;
+                                    float:left;
+                                    background-color:orange;
+                                    width: 850px;
+                                    height: 90px; 
+                                }
+                    
+            }  
+               
 
             @media (max-width: 960px) {
                 .continer{
@@ -180,4 +270,4 @@ line-height: 90px;
                             }
             
 
-
+                           
